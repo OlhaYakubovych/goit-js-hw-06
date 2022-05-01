@@ -22,7 +22,7 @@ const galleryEl = images.map((image) =>
  align-items: center;
  justify-content: center;
  margin-right: 15px;">
-    <img src="${image.url} alt = ${image.alt} width="200" height="150"</img>
+    <img src="${image.url} height="150"</img>
     </li>`
 ).join("");
 
